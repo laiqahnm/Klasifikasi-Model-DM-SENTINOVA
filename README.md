@@ -8,9 +8,10 @@ Model klasifikasi ini dilatih menggunakan dataset ulasan pelanggan yang sudah di
    - Preprocessing teks (tokenizing, filtering, stemming, dll.)
    - Pelatihan model klasifikasi (menggunakan 4 perbandingan model: Naive Bayes, Gradient Boosted Tree, Random Forest, Logistic Regression)
    - Evaluasi awal performa model
-   - Ekspor model ke format `.pkl` (menggunakan Extension: Python Scripting dan model export)
+   - Mengambil hasil evaluasi model terbaik
 
 2. **Python (Jupyter/Colab)** — digunakan untuk:
-   - Menjalankan prediksi berbasis model `.pkl`
-   - Menampilkan hasil prediksi, confidence, dan evaluasi
+   - Membangun ulang model dan pipeline tf idf + naive bayes (model terbaik dari hasil proses RapidMiner)
+   - Menyimpan model dalam format `.pkl`
+   - Menjalankan dan menampilkan hasil prediksi, confidence, dan evaluasi
    - Visualisasi dan laporan akhir
